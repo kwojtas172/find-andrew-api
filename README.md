@@ -10,14 +10,22 @@ This is API for Find Andrew App. Enables reading data from database and adding n
 ```
 GET /locations
 ```
-You must add `apiKey` to `Header` (for request).
+You must add `apiKey` to `header` (for request).
+
+```
+GET /
+redirect to /locations
+```
+
 
 **To post to db:**
 
 ```
 POST /locations
 ```
-You must add `apiKey` to `Header` (for request).
+You must add `apiKey` to `header` (for request).
+
+Format data (for each endpoint) is `JSON`.
 
 ## Technologies
 
