@@ -19,8 +19,9 @@ You must add `apiKey` to `Header` (for request).
 
 ## Technologies
 
-#### **Server:** *Node.js (Express.js)*
-#### **DB:** *mongoDB*
+**Server:** Node.js (Express.js)
+
+**DB:** mongoDB
 
 ## Installation
 
