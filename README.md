@@ -6,14 +6,14 @@ This is API for Find Andrew App. Enables reading data from database and adding n
 
 **To get from db:**
 ```
-GET /users
+GET /locations
 ```
 You must add `apiKey` to `Header` (for request).
 
 **To post to db:**
 
 ```
-POST /users
+POST /locations
 ```
 You must add `apiKey` to `Header` (for request).
 
