@@ -40,10 +40,12 @@ You need node.js (you can download [there](https://nodejs.org/en/download/)).
 ```sh
 git clone https://github.com/kwojtas172/find-andrew-api.git
 
+cd .\find-andrew-api\
+
 npm install
 
 node index.js
 ```
 
 ## Status
-In working (server created, now building db).
+In working (server and db created).
