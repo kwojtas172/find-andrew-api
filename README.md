@@ -4,6 +4,8 @@
 
 This is API for Find Andrew App. Enables reading data from database and adding new objects (documents) to database.
 
+[Demo](https://find-andrew-api.herokuapp.com/locations) is available.
+
 **To get from db:**
 ```
 GET /locations
