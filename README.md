@@ -27,6 +27,19 @@ You must add `apiKey` to `header` (for request).
 
 Format data (for each endpoint) is `JSON`.
 
+**To delete of db:**
+
+```
+DELETE /locations
+```
+You must add `apiKey` to `header` (for request).
+
+Format data (for each endpoint) is `JSON`:
+
+``` 
+{"id": "61641c0fcf5bc0a1776d8e0d"} 
+```
+
 ## Technologies
 
 **Server:** Node.js (Express.js)
