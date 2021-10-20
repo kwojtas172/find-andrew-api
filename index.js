@@ -28,7 +28,7 @@ app.get('/locations', (req, res) => {
                 db.collection("locations").find({}).toArray((err, result) => {
                     if (err) throw err;
                     dbs.close();
-                    res.json(result[0]._id.toString());
+                    res.json(result);
                 });
             });
     } else res.json({res: 'access denied'}); //no authorization response
