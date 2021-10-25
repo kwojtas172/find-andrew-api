@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
 
 require('dotenv').config();
+
+const port = process.env.PORT || 3000;
+
 
 const MongoClient = require('mongodb').MongoClient;
 const ObjectId = require('mongodb').ObjectId; 
